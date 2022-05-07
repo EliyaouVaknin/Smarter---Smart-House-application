@@ -1,0 +1,54 @@
+#HomeCard{
+    background-color:transparent;
+    width: 800px;
+    height: 462px;
+    border-radius: 50px;
+    left: 30%;
+    transform: translate(30%,-10%);
+    border: 1px solid #742ac1;
+    box-shadow: 0px 0px 10px 15px #35569b;
+}
+
+#AddRoomBtn{
+    background-color: #2e55e1;
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    border-radius: 17px;
+    font-size: 15px;
+    color: white;
+    border-style: none;
+    box-shadow: 0px 0px 10px 5px #35569b;
+    transform: translate(220%,570%);
+    cursor: pointer;
+    font-size: 22px;
+    text-decoration: none;
+    border: 2px solid #272b50;
+}
+
+.text-link{
+    color: white;
+    text-decoration: 'none';
+}
+
+#UserNameHome{
+    transform: translate(-53%,35%);
+}
+
+#LogoutBtn{
+    background-color: #2e55e1;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    border-radius: 17px;
+    font-size: 15px;
+    color: white;
+    border-style: none;
+    box-shadow: 0px 0px 10px 5px #35569b;
+    transform: translate(550%,50%);
+    cursor: pointer;
+    font-size: 22px;
+    text-decoration: none;
+    border: 2px solid #272b50;
+}
+

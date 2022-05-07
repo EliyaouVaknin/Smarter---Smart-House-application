@@ -1,0 +1,10 @@
+#FooterP{
+    color: white;
+    height: 10px;
+    transform: translate(-41%,-150%);
+}
+
+#ToggleSwitchSpan{
+    position: absolute;
+    transform: translate(2350%,-115%);
+}

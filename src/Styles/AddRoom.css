@@ -1,0 +1,76 @@
+#AddRoomCard{
+    background-color:#272b50;
+    width: 800px;
+    height: 462px;
+    border-radius: 50px;
+    left: 30%;
+    transform: translate(30%,-10%);
+    border: 1px solid #742ac1;
+    box-shadow: 0px 0px 10px 15px #35569b;
+}
+
+#RoomDiv{
+    position: absolute;
+    transform: translate(25%,-0%);
+}
+
+.RoomClass{
+    width: 100px;
+    height: 100px;
+    border-radius: 13px;
+    border-style: none;
+    margin-left: 70px;
+    margin-top: 30px;
+    border-radius: 1px solid #4a56d0;
+    background-color: #318d8c;
+}
+
+.RoomImg{
+    width: 80px;
+    height: 80px;
+    filter: invert();
+}
+#RoomInputs{
+    transform: translate(0%,120%);
+}
+#RoomName{
+    margin-top: 45px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid #36d5b4;
+    background-color:#4a56d0;
+}  
+
+#SaveRoomBtn{
+    background-color: #2e55e1;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    border-radius: 17px;
+    font-size: 15px;
+    color: white;
+    border-style: none;
+    box-shadow: 0px 0px 10px 5px #35569b;
+    transform: translate(220%,280%);
+    cursor: pointer;
+    font-size: 33px;
+    text-decoration: none;
+    border: 2px solid #272b50;
+} 
+
+.ColorBtn{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+#ColorDiv{
+    margin-left: 90px;
+    position: absolute;
+    transform: translate(17%,35%);
+}

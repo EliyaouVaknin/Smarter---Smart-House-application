@@ -1,0 +1,77 @@
+#RoomCard{
+    background-color:transparent;
+    width: 800px;
+    height: 462px;
+    border-radius: 50px;
+    left: 30%;
+    transform: translate(-18%,-10%);
+    border: 1px solid #742ac1;
+    box-shadow: 0px 0px 10px 15px #35569b;
+    position: relative;
+}
+
+.Btn{
+    background-color: #2e55e1;
+    width: 100px;
+    height: 30px;
+    border-radius: 13px;
+    color: white;
+    border-style: none;
+    box-shadow: 0px 0px 5px 3px white;
+    margin-left: 75%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+#BackToHomeLink{
+    background-color: #2e55e1;
+    position: fixed;
+    width: 150px;
+    height: 40px;
+    border-radius: 17px;
+    color: white;
+    border-style: none;
+    box-shadow: 0px 0px 10px 5px #35569b;
+    transform: translate(220%,180%);
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid #272b50;
+}
+
+#AddProductCard{
+    background-color:#272b50;
+    position: absolute;
+    width: 800px;
+    height: 287px;
+    border-radius: 50px;
+    transform: translate(0%,30%);
+    border: 1px solid #742ac1;
+    box-shadow: 0px 0px 10px 15px #35569b;
+    z-index: 1;
+}
+
+.ProductClass{
+    width: 100px;
+    height: 100px;
+    border-radius: 13px;
+    border-style: none;
+    margin-left: 80px;
+    margin-top: 30px;
+    border-radius: 1px solid #4a56d0;
+    background-color: #318d8c;
+    transform: translate(-35%,0%);
+}
+
+.ProductBtn{
+    width: 100px;
+    height: 60px;
+    border-radius: 13px;
+    border-style: none;
+    margin-left: 70px;
+    margin-top: 30px;
+    border:2px solid #4a56d0;
+    background-color: #318d8c;
+    box-shadow: 0px 0px 7px 2px #35569b;
+
+}

@@ -1,0 +1,63 @@
+#sidebar{
+    display: none;
+    height:100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.6s;
+}
+
+#SideMenuBtn{
+    width: 40px;
+    height: 30px;
+    transform: translate(1500%,0%);
+    margin-top: 15px;
+    filter: invert();
+}
+
+#AboutCard,#ConnectUsCard{
+    background-color:#272b50;
+    width: 800px;
+    height: 462px;
+    border-radius: 50px;
+    left: 30%;
+    transform: translate(-18%,-0%);
+    border: 1px solid #742ac1;
+    position: absolute;
+    box-shadow: 0px 0px 10px 15px #35569b;
+    z-index: 1;
+}
+
+#buttonSideMenuAbout, #buttonSideMenuConnectUs{
+    background-color: #2e55e1;
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    border-radius: 17px;
+    font-size: 15px;
+    color: white;
+    border-style: none;
+    box-shadow: 0px 0px 10px 5px #35569b;
+    transform: translate(220%,270%);
+    cursor: pointer;
+    font-size: 22px;
+    text-decoration: none;
+    border: 2px solid #272b50;
+}
+
+.ConnectUsImg{
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+}
+
+#tableConnectUs{
+    margin-left: 20%;
+    margin-top: 10%;
+}
